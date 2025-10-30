@@ -18,7 +18,7 @@ export function Footer() {
           
           {/* Social Media Links */}
           <div className="flex gap-4 mb-8">
-            <a 
+            {/* <a 
               href="https://instagram.com/mssnunilorin" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -26,7 +26,7 @@ export function Footer() {
               aria-label="Instagram"
             >
               <Instagram className="w-5 h-5" />
-            </a>
+            </a> */}
             <a 
               href="https://twitter.com/mssnunilorin" 
               target="_blank" 

@@ -24,7 +24,7 @@ const upcomingEvents: Event[] = [
     description: "Join us for Qur'an recitation, Tafsir, and Islamic discussions"
   },
   {
-    title: "Academic Excellence Seminar",
+    title: "Orientation Week",
     date: "December 15, 2025",
     time: "10:00 AM - 3:00 PM",
     location: "Faculty of Science Auditorium",
