@@ -3,10 +3,10 @@ import { ImageWithFallback } from '../figma/ImageWithFallback';
 
 export function GallerySection() {
   const galleryImages = [
-    "https://images.unsplash.com/photo-1631148902202-a7aa5d651445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNsaW0lMjBzdHVkZW50cyUyMHN0dWR5aW5nfGVufDF8fHx8MTc2MTI5MjE3NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    "https://scontent.flos3-1.fna.fbcdn.net/v/t1.6435-9/130722071_138631088021959_5496328107723187387_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3a1ebe&_nc_ohc=mNnsgpckcucQ7kNvwE_jZBh&_nc_oc=AdloKFGO_GG8GyjcME46bKmKntdaIZLrBDWMY1tVP8s-LNYgeZhD7hqI4Ev_byRE4dg&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&_nc_gid=oLIk1PvVRXV9r1HjoxN88Q&oh=00_Affl63Xj4M0AhFyWMBfkI_wtJPe7z2JfDljQzTfDktN5fA&oe=692B1D3B",
     "https://images.unsplash.com/photo-1758573644043-d3e1be7e0ce3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpc2xhbWljJTIwY29tbXVuaXR5JTIwZ2F0aGVyaW5nfGVufDF8fHx8MTc2MTI5MjE3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     "https://i.pinimg.com/1200x/9d/3b/73/9d3b73712c925cde6c124df409fd77d5.jpg",
-    "https://scontent.flos3-1.fna.fbcdn.net/v/t1.6435-9/130722071_138631088021959_5496328107723187387_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3a1ebe&_nc_ohc=mNnsgpckcucQ7kNvwE_jZBh&_nc_oc=AdloKFGO_GG8GyjcME46bKmKntdaIZLrBDWMY1tVP8s-LNYgeZhD7hqI4Ev_byRE4dg&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&_nc_gid=oLIk1PvVRXV9r1HjoxN88Q&oh=00_Affl63Xj4M0AhFyWMBfkI_wtJPe7z2JfDljQzTfDktN5fA&oe=692B1D3B",
+    "https://images.unsplash.com/photo-1631148902202-a7aa5d651445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtdXNsaW0lMjBzdHVkZW50cyUyMHN0dWR5aW5nfGVufDF8fHx8MTc2MTI5MjE3NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
     "https://i.pinimg.com/736x/a1/f0/18/a1f018fa0e77768eb478443d510e5c3f.jpg",
     "https://scontent.flos2-2.fna.fbcdn.net/v/t1.6435-9/130878032_138631081355293_6549566011963363477_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3a1ebe&_nc_ohc=pvI4xmvzmYsQ7kNvwGd2nqv&_nc_oc=AdmXiZg1lv8_b1N7TseuN9Qn1NrqW5U03r1wqjeAqhB3gQukeqqNda6eluw0PuE-KAk&_nc_zt=23&_nc_ht=scontent.flos2-2.fna&_nc_gid=07QYjFrOG2_Deus-9GDswQ&oh=00_AfehCsM4uZUYYQYQLyS5EHxA8wtUxe7EOhiyg4rT96COVA&oe=692B3C2D"
   ];
