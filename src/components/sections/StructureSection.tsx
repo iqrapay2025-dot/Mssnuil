@@ -31,12 +31,12 @@ export function StructureSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {structureItems.map((item, index) => (
-            <motion.div
+            <motion.div 
               key={index}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1, duration: 0.5 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Card className="group hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-white to-emerald-50/30 h-full">
                 <CardHeader>

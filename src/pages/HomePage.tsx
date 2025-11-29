@@ -17,6 +17,7 @@ import { UpcomingEvents } from '../components/UpcomingEvents';
 import { QuickLinks } from '../components/QuickLinks';
 import { PrayerTimes } from '../components/PrayerTimes';
 import { BackToTop } from '../components/BackToTop';
+import MembershipForm from '../components/MembershipForm';
 
 interface HomePageProps {
   onLogoClick: () => void;
@@ -75,6 +76,8 @@ export function HomePage({ onLogoClick }: HomePageProps) {
       <Testimonials />
       
       <GetInvolvedSection scrollToSection={scrollToSection} />
+      
+      <MembershipForm />
       
       <QuickLinks onNavigateToResources={navigateToResources} />
       

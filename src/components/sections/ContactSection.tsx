@@ -1,5 +1,5 @@
-import { motion } from 'motion/react';
 import { useState } from 'react';
+import { motion } from 'motion/react';
 import { Button } from '../ui/button';
 import { toast } from 'sonner';
 import { NewsletterSubscription } from '../NewsletterSubscription';
@@ -42,8 +42,8 @@ export function ContactSection() {
               key={index}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1, duration: 0.5 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-gradient-to-br from-emerald-50 to-teal-50 p-8 rounded-2xl border border-emerald-100 hover:shadow-xl transition-all duration-300"
             >
               <div className="w-14 h-14 bg-emerald-600 rounded-xl flex items-center justify-center mb-6">
@@ -60,7 +60,7 @@ export function ContactSection() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -115,7 +115,7 @@ export function ContactSection() {
             </form>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}

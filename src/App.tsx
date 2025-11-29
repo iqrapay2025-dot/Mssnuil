@@ -6,6 +6,7 @@ import { ResourcesPage } from './pages/ResourcesPage';
 import { AdminLoginPage } from './pages/AdminLoginPage';
 import { AdminDashboardPage } from './pages/AdminDashboardPage';
 import { LoadingScreen } from './components/layout/LoadingScreen';
+// import { CustomCursor } from './components/CustomCursor';
 import { Toaster } from './components/ui/sonner';
 
 function AppContent() {
@@ -39,6 +40,7 @@ function AppContent() {
 
   return (
     <>
+      {/* <CustomCursor /> */}
       <Routes>
         <Route path="/" element={<HomePage onLogoClick={handleLogoClick} />} />
         <Route path="/blog" element={<BlogPage />} />
