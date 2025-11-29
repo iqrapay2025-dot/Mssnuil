@@ -58,6 +58,8 @@ export function HomePage({ onLogoClick }: HomePageProps) {
       <HeroSection scrollToSection={scrollToSection} />
       
       <AboutSection />
+
+      <MembershipForm />
       
       <StatsCounter />
       
@@ -77,7 +79,6 @@ export function HomePage({ onLogoClick }: HomePageProps) {
       
       <GetInvolvedSection scrollToSection={scrollToSection} />
       
-      <MembershipForm />
       
       <QuickLinks onNavigateToResources={navigateToResources} />
       
