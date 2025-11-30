@@ -240,6 +240,9 @@ export default function MembershipForm() {
                     <option value="Veterinary Medicine">
                       Veterinary Medicine
                     </option>
+                    <option value="Others/Non-Student">
+                      Others/Non-Student
+                    </option>
                   </select>
                 </motion.div>
 
